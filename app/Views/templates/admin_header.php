@@ -47,11 +47,11 @@
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="https://wa.me/6285706298928" class="nav-link">Contact</a>
+      </li> -->
+      <li style="margin-left:20px;" class="nav-item d-none d-sm-inline-block">
+        <a href="/logout" class="btn btn-secondary">Logout</a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="/logout" class="nav-link">Logout</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
+      <!-- <li class="nav-item d-none d-sm-inline-block">
         <a href="/dokter" class="nav-link">Login</a>
       </li> -->
     </ul>

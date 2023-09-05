@@ -1,6 +1,10 @@
 <?= $this->extend($config->viewLayout) ?>
 <?= $this->section('main') ?>
 
+email = admin@gmail.com <br>
+usn = admin <br>
+pw = smkn6
+
 <div class="container">
 	<div class="row">
 		<div class="col-sm-6 offset-sm-3">
@@ -58,9 +62,7 @@
 
 					<hr>
 
-<?php if ($config->allowRegistration) : ?>
-					<p><a href="<?= url_to('register') ?>"><?=lang('Auth.needAnAccount')?></a></p>
-<?php endif; ?>
+
 <?php if ($config->activeResetter): ?>
 					<p><a href="<?= url_to('forgot') ?>"><?=lang('Auth.forgotYourPassword')?></a></p>
 <?php endif; ?>
