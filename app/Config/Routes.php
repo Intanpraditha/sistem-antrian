@@ -7,7 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 // $routes->get('/', 'Home::index');
 
-$routes->get('/', 'PasienController::index');
+$routes->get('/', 'LandingController::index');
 $routes->get('pasien', 'PasienController::index');
 $routes->get('pasien/detail/(:num)', 'PasienController::detail/$1');
 $routes->get('pasien/create', 'PasienController::create');
